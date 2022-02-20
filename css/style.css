@@ -1,0 +1,121 @@
+@import "null.css";
+@import url("https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic@display=swap");
+
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+}
+
+body {
+   font-family: "Lato", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+}
+
+h1 {
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 1.3;
+   max-width: 810px;
+   margin: 20px auto 0;
+}
+
+.icon {
+   max-width: 810px;
+   margin: 0 auto;
+}
+
+.icon p:first-of-type {
+   background: url(../img/icon/Calendar.svg) 0 0 no-repeat;
+   padding: 0 0 0 24px;
+   color: #787a80;
+}
+
+.icon p:nth-of-type(2) {
+   background: url(../img/icon/Clock.svg) 0 0 no-repeat;
+   padding: 0 0 0 24px;
+   color: #787a80;
+}
+
+.icon p {
+   margin: 10px 0 0 0;
+}
+
+.icon-right {
+   max-width: 810px;
+   margin: 10px auto;
+}
+
+.icon-right p {
+   font-weight: 700;
+}
+.icon-right img {
+   padding: 0 0 0 12px;
+}
+
+.image {
+   max-width: 810px;
+   margin: 0 auto;
+}
+
+.text {
+   max-width: 810px;
+   margin: 60px auto 0;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 1.5;
+}
+
+.text-block {
+   max-width: 810px;
+   margin: 24px auto 0;
+   line-height: 1.6;
+}
+
+.text-border {
+   max-width: 810px;
+   margin: 48px auto 0;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 1.5;
+   padding: 0 0 0 58px;
+   border: 1px solid black;
+}
+
+.text-border p::before {
+   content: "";
+   display: inline-block;
+   width: 28px;
+   height: 20px;
+   background: url(../img/icon/braces.svg) 0 0 no-repeat;
+   margin: 0 30px 0 -58px;
+   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.text-block-block {
+   max-width: 810px;
+   margin: 48px auto 0;
+   line-height: 1.6;
+}
+
+.list {
+   max-width: 810px;
+   margin: 24px auto 0;
+   line-height: 1.6;
+}
+
+.list li {
+   background: url(../img/icon/check.svg) 0 5px / 16px 16px no-repeat;
+   padding: 0 0 0 32px;
+   margin: 0 0 4px 0;
+}
+
+.list li:last-child {
+   margin-bottom: 0;
+}
+
+.block-text {
+   max-width: 810px;
+   margin: 24px auto 60px;
+   line-height: 1.6;
+}
